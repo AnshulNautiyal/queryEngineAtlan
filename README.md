@@ -112,19 +112,6 @@ The application includes several pre-built query templates:
 - **Result Caching**: Previous results cached for quick access
 - **Garbage Collection**: Proper cleanup of event listeners and timers
 
-## 🎨 Design Philosophy
-
-### User Experience
-- **Intuitive Interface**: Clean, professional design inspired by modern database tools
-- **Progressive Disclosure**: Advanced features available but not overwhelming
-- **Consistent Feedback**: Loading states, error messages, and success indicators
-- **Accessibility**: Keyboard navigation and screen reader support
-
-### Code Quality
-- **TypeScript**: Full type safety throughout the application
-- **Component Architecture**: Modular, reusable components
-- **CSS Organization**: Human-readable class names split into logical files
-- **Error Handling**: Comprehensive error handling and user feedback
 
 ## 🔧 Customization
 
@@ -148,37 +135,3 @@ The application includes several pre-built query templates:
 ```bash
 npm run build
 ```
-
-### Deploy to Netlify/Vercel
-1. Push code to GitHub
-2. Connect repository to Netlify/Vercel
-3. Build command: `npm run build`
-4. Publish directory: `dist`
-
-## 📊 Performance Metrics
-
-- **First Contentful Paint**: ~800ms
-- **Largest Contentful Paint**: ~1.2s
-- **Time to Interactive**: ~1.5s
-- **Bundle Size**: ~2.1MB (including Monaco Editor)
-- **Query Execution**: ~100-500ms (simulated)
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## 📝 License
-
-This project is licensed under the MIT License.
-
-## 🎥 Demo Video
-
-[Link to demo video showing implementation details and query execution]
-
----
-
-**Note**: This is a demonstration application with mock data. The SQL queries are simulated and do not connect to a real database. The focus is on showcasing the user interface and interaction patterns for a SQL query runner application.
